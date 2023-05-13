@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .style-nguu img {
+            position: relative;
+        }
+
+        span {
+            position: absolute;
+            width: 400px;
+            height: 5px;
+            background-color: #fff;
+            left: 0;
+            top: 25%;
+        }
+
+        .col-4 {
+            width: 30.33;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="style-nguu">
+        <img src="./slide2.jpg" alt="">
+        <span></span>
+    </div>
+    <div id="content">
+        Đây là nội dung cần thay đổi.
+    </div>
+    <input type="button" id="btn1" value="Title title" />
+
+    <section>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="content-image1">
+                            <h2>Le Ngoc Hai</h2>
+                            <img src="./iphone-14-pro-max-den-thumb-600x600.jpg" alt="">
+                            <div class="color">
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+                                    Cicero
+                                    are also reproduced in their exact original form, accompanied by English versions
+                                    from
+                                    the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                            <button class="btn-set-color">IMAGE 1</button>
+                        </div>
+                        <div class="content-image2">
+                            <h2>Le Ngoc Hai</h2>
+                            <img src="./iPhone-14-thumb-do-600x600.jpg" alt="">
+                            <p>
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.
+                            </p>
+                            <button>IMAGE 2</button>
+                        </div>
+                        <div class="content-image3">
+                            <h2 id="title-change">Le Ngoc Hai</h2>
+                            <img src="./realme-c35-vang-thumb-600x600.jpg" alt="">
+                            <p>
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.
+                            </p>
+                            <button id="btn-change">IMAGE 3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+
+
+</html>
